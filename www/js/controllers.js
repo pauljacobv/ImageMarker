@@ -45,11 +45,11 @@ angular.module('starter.controllers', [])
 
 .controller('canvasCtrl', function ($scope, $stateParams, $state) {
     $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-        $scope.finalPictureUrl=pictureUrl;
+       $scope.finalPictureUrl=pictureUrl;
     })
     
     
-    $scope.pictureUrl2=pictureUrl;
+//    $scope.pictureUrl2=pictureUrl;
 
     $scope.GoBack = function () {
                 $state.go('dashboard')
