@@ -1,0 +1,15 @@
+<ion-view view-title="Canvas">
+    <ion-content class="Tenant-CSign-page">
+        <div id="signature-pad">
+            <div class="m-signature-pad--body">
+                <canvas></canvas>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar align-title="left" style="background-color:#d2860e;border-color:#d2860e;">
+        <div class="button-bar">
+            <button class="button" style="color:white;background-color:#d2860e;border-color:#d2860e;" ng-click="sign_canvas_upload()">Upload</button>
+            <button class="button" style="color:white;background-color:#d2860e;border-color:#d2860e;" id="saveBtn" ng-click="sign_canvas_save()">Save</button>
+        </div>
+    </ion-footer-bar>
+</ion-view>
